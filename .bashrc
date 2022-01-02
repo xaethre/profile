@@ -52,5 +52,3 @@ export TTY=$(tty)
 export PROMPT_DIRTRIM=2
 export PROMPT_COMMAND="printf '\e]0;'${HOSTNAME%%.*}'\7'" #Terminal title
 
-. /home/rijndael/.aliases
-
