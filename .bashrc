@@ -41,6 +41,7 @@ export TERM=xterm-256color
 export PAGER=less
 export EDITOR=vim
 export VISUAL=vim
+export GIT_EDITOR=vim
 export BLOCKSIZE=M
 export SOMESHIT="/home/rijndael/Cloud/Someshit"
 export CDPATH="$SOMESHIT"
