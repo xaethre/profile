@@ -1,8 +1,0 @@
-alias gt='docker run --network docknet --ip 172.18.0.255 -h gate -it gate /bin/bash -l'
-alias lm='docker run --network docknet --ip 172.18.0.2 -h lemp -it lemp /bin/bash -l'
-alias lm2='docker run --network docknet --ip 172.18.0.2 -h lemp2 -it lemp2 /bin/bash -l'
-alias bd='docker run --network docknet --ip 172.18.0.3 -h bind -it bind /bin/bash -l'
-alias m1='docker run --network docknet --ip 172.18.0.10 -h m1 -it m1 /bin/bash -l'
-alias m2='docker run --network docknet --ip 172.18.0.11 -h m2 -it m2 /bin/bash -l'
-alias m3='docker run --network docknet --ip 172.18.0.12 -h m3 -it m3 /bin/bash -l'
-alias px='docker run --network docknet --ip 172.18.0.100 -h ps -it catatnight/postfix /bin/bash -l'
