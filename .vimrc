@@ -8,6 +8,12 @@ syntax enable
 nnoremap <CR> :noh<CR>
 nnoremap <S-Q> <esc>
 
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+
 set number
 set wrap
 set linebreak

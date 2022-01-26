@@ -14,6 +14,7 @@ export PS1="[\[\e[32m\]\$(U_OK)\[\e[m\]\[\e[31m\]\$(U_ER)\[\e[m\]:\[\e[36m\]\w\[
 systemd-detect-virt -q && export PS1="[\[\e[34m\]VM\[\e[m\]]$PS1"
 
 # ALIASES
+alias rsp='rsync -rlpv'
 alias nc="netcat"
 alias ip="ip -c"
 alias man="man -L ru"
@@ -47,12 +48,9 @@ export GIT_AUTHOR_EMAIL='aethre@yandex.com'
 export BLOCKSIZE=M
 export SOMESHIT="/home/rijndael/Cloud/Someshit"
 export CDPATH="$SOMESHIT"
-#export ROOTPATH="/sbin:/usr/sbin:/usr/local/sbin"
-export PATH="${PATH}:${ROOTPATH}:${SOMESHIT}/scripts:/opt/bin"
+export PATH="${PATH}:${SOMESHIT}/scripts:/opt/bin"
 export TIMEZONE="/usr/share/zoneinfo/Europe/Moscow"
 export TZ="$TIMEZONE"
 export TTY=$(tty)
 export PROMPT_DIRTRIM=2
 export PROMPT_COMMAND="printf '\e]0;'${HOSTNAME%%.*}'\7'" #Terminal title
-
-. ~/.aliases
